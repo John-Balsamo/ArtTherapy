@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.artic.edu/sites/all/themes/aic_base/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="chrome=1" http-equiv="X-UA-Compatible" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link href="/apple-touch-icon-196x196-precomposed.png" rel="icon" sizes="196x196" />
+<link href="/apple-touch-icon-180x180-precomposed.png" rel="apple-touch-icon-precomposed" sizes="180x180" />
+<link href="/apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon-precomposed" sizes="152x152" />
+<link href="/apple-touch-icon-144x144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+<link href="/apple-touch-icon-120x120-precomposed.png" rel="apple-touch-icon-precomposed" sizes="120x120" />
+<link href="/apple-touch-icon-114x114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+<link href="/apple-touch-icon-76x76-precomposed.png" rel="apple-touch-icon-precomposed" sizes="76x76" />
+<link href="/apple-touch-icon-72x72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+<link href="/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" />
+
+      <meta name="viewport" content="width = device-width, initial-scale = 1.0">  
+      <meta property="og:site_name" content="The Art Institute of Chicago">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+  
+  <title>The Art Institute of Chicago</title> 
+
+  <style type="text/css" media="all">
+@import url("http://www.artic.edu/modules/system/system.base.css?pal6wf");
+@import url("http://www.artic.edu/modules/system/system.menus.css?pal6wf");
+@import url("http://www.artic.edu/modules/system/system.messages.css?pal6wf");
+@import url("http://www.artic.edu/modules/system/system.theme.css?pal6wf");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.artic.edu/sites/all/libraries/mediaelement/build/mediaelementplayer.min.css?pal6wf");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.artic.edu/sites/all/modules/calendar/css/calendar_multiday.css?pal6wf");
+@import url("http://www.artic.edu/modules/comment/comment.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/date/date_api/date.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/date/date_repeat_field/date_repeat_field.css?pal6wf");
+@import url("http://www.artic.edu/modules/field/theme/field.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/contrib/google_cse/google_cse.css?pal6wf");
+@import url("http://www.artic.edu/modules/node/node.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/relation/relation_entity_collector/relation_entity_collector.css?pal6wf");
+@import url("http://www.artic.edu/modules/search/search.css?pal6wf");
+@import url("http://www.artic.edu/modules/user/user.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/views/css/views.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?pal6wf");
+</style>
+<style type="text/css" media="all">
+@import url("http://www.artic.edu/sites/all/modules/colorbox/styles/default/colorbox_default_style.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/ctools/css/ctools.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/nice_menus/nice_menus.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/nice_menus_custom.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/extlink/extlink.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/aic_decoupled_nav.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/quicktabs/css/quicktabs.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/modules/custom/fuseiq_toolkit/fuseiq_toolkit.css?pal6wf");
+</style>
+<link type="text/css" rel="stylesheet" href="//cloud.typography.com/612324/647704/css/fonts.css" media="all" />
+<style type="text/css" media="all">
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/basic_reset.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/typography.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/global.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/layout.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/desktop.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/toolbox.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/calendar_block.css?pal6wf");
+@import url("http://www.artic.edu/sites/all/themes/aic_base/css/aic_social_external.css?pal6wf");
+</style>
+
+<!--[if IE]>
+<link type="text/css" rel="stylesheet" href="http://www.artic.edu/sites/all/themes/aic_base/css/ie.css?pal6wf" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://www.artic.edu/sites/default/files/js/js_x0MhBQfHNAIO1NwkQgzf_TGN4b8eMmKre3nqUfoQv3w.js"></script>
+<script type="text/javascript" src="http://www.artic.edu/sites/all/libraries/mediaelement/build/mediaelement-and-player.min.js?v=2.1.6"></script>
+<script type="text/javascript" src="http://www.artic.edu/sites/default/files/js/js_V207kDSEuulZDBugMv-mJf8IjZ9YzYw9fNKLrhBhlMU.js"></script>
+<script type="text/javascript" src="http://www.artic.edu/sites/default/files/js/js_CWcu1Uv-RmjnaJAnrrW4JhmyALhFX3B3ZntMxMPm4Qc.js"></script>
+<script type="text/javascript" src="http://www.artic.edu/sites/default/files/js/js_PcB7kGz7inAmrPOnNP2i6CLnjpeyLcPPLS_-ObqoSb4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","aic_base":{"theme":"sites\/all\/themes\/aic_base"},"ajaxPageState":{"theme":"aic_base","theme_token":"SuaGXF_FNeLv0U9q5X9FQt7GAl7TqdStE6S6yLcuycs","js":{"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelement-and-player.min.js":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.js":1,"sites\/all\/modules\/media_colorbox\/media_colorbox.js":1,"sites\/all\/modules\/addthis\/addthis.js":1,"misc\/progress.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/libraries\/jwplayer\/jwplayer.js":1,"sites\/all\/modules\/mediaelement\/mediaelement.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/superfish.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/jquery.bgiframe.min.js":1,"sites\/all\/modules\/nice_menus\/superfish\/js\/jquery.hoverIntent.minified.js":1,"sites\/all\/modules\/nice_menus\/nice_menus.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/themes\/aic_base\/js\/aic_decoupled_nav.js":1,"sites\/all\/modules\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/modules\/custom\/fuseiq_toolkit\/fuseiq_toolkit.js":1,"sites\/all\/themes\/aic_base\/js\/desktop.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/mediaelement\/build\/mediaelementplayer.min.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/google_cse\/google_cse.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/relation\/relation_entity_collector\/relation_entity_collector.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/nice_menus\/nice_menus.css":1,"sites\/all\/themes\/aic_base\/css\/nice_menus_custom.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/themes\/aic_base\/css\/aic_decoupled_nav.css":1,"sites\/all\/modules\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/modules\/custom\/fuseiq_toolkit\/fuseiq_toolkit.css":1,"\/\/cloud.typography.com\/612324\/647704\/css\/fonts.css":1,"sites\/all\/themes\/aic_base\/css\/basic_reset.css":1,"sites\/all\/themes\/aic_base\/css\/typography.css":1,"sites\/all\/themes\/aic_base\/css\/global.css":1,"sites\/all\/themes\/aic_base\/css\/layout.css":1,"sites\/all\/themes\/aic_base\/css\/desktop.css":1,"sites\/all\/themes\/aic_base\/css\/toolbox.css":1,"sites\/all\/themes\/aic_base\/css\/calendar_block.css":1,"sites\/all\/themes\/aic_base\/css\/aic_social_external.css":1,"sites\/all\/themes\/aic_base\/css\/ie.css":1}},"admin_menu":{"suppress":1},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"100%","initialWidth":"300","initialHeight":"100","fixed":true,"scrolling":true,"__drupal_alter_by_ref":["default"]},"googleCSE":{"cx":"009294866147460156361:dvpzvgqo6fe","language":"","resultsWidth":600,"domain":"www.google.com"},"mediaelementAll":true,"nice_menus_options":{"delay":"300","speed":"fast"},"extlink":{"extTarget":"_blank","extClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0},"urlIsAjaxTrusted":{"\/event\/sites\/all\/themes\/aic_base\/img\/ajax-loader.gif":true},"addthis":{"widget_url":"http:\/\/s7.addthis.com\/js\/250\/addthis_widget.js#pubid=ra-537e30d42f2c4dff?async=1"},"quicktabs":{"qt_media_feed":{"name":"media_feed","tabs":[{"bid":"aic_social_media_delta_facebook","hide_title":0},{"bid":"aic_social_media_delta_twitter","hide_title":0},{"bid":"views_delta_blog-block_social","hide_title":0},{"bid":"block_delta_37","hide_title":0}],"extlink":{"extTarget":"_blank","extClass":0,"extSubdomains":0,"extExclude":"","extInclude":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0}}}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in two-sidebars page-event page-event-sites page-event-sites-all page-event-sites-all-themes page-event-sites-all-themes-aic-base page-event-sites-all-themes-aic-base-img page-event-sites-all-themes-aic-base-img-ajax-loadergif" >
+  <div id="skip-link">
+    <a href="#content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+
+    <div id="page" class="page with-navigation" >
+
+  <div id="header">
+    <a href="http://www.artic.edu" title="The Art Institute of Chicago" class="" id="logo"><img typeof="foaf:Image" src="http://www.artic.edu/sites/all/themes/aic_base/img/aic_gray_logo.png" width="119px" height="119px" alt="The Art Institute of Chicago" /></a>      <div class="region region-header">
+    
+<div id="block-nice_menus-1" class="block block-nice-menus block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <ul class="nice-menu nice-menu-down" id="nice-menu-1"><li class="menu-1723 menuparent  menu-path-node-288 active-trail  first   odd  "><a href="/visit">Visit</a><ul><li class="menu-6241  menu-path-node-288  first   odd  "><a href="/visit" title="">Museum Info</a></li>
+<li class="menu-5145 menu-path-https--salesarticedu-   even  "><a href="https://sales.artic.edu/" title="">Buy Tickets</a></li>
+<li class="menu-4249 menu-path-calendar   odd  "><a href="/calendar" title="">Calendar</a></li>
+<li class="menu-3228  menu-path-node-822   even  "><a href="/visit/directions-and-parking">Directions and Parking</a></li>
+<li class="menu-4509  menu-path-node-2182   odd  "><a href="/visit/maps-guides-and-apps">Maps, Guides, and Apps</a></li>
+<li class="menu-4344  menu-path-node-1871   even  "><a href="/visit/accessibility">Accessibility</a></li>
+<li class="menu-4343  menu-path-node-1870   odd  "><a href="/visit/collection-updates">Collection Updates</a></li>
+<li class="menu-3484  menu-path-node-940   even  "><a href="/visit/dining">Dining</a></li>
+<li class="menu-4338  menu-path-node-1864   odd  "><a href="/visit/visiting-group" title="For Groups">Visiting with a Group</a></li>
+<li class="menu-2603  menu-path-node-458   even  "><a href="/visit/visiting-your-family">Visiting with Your Family</a></li>
+<li class="menu-4346  menu-path-node-1872   odd  "><a href="/visit/visiting-chicago">Visiting Chicago</a></li>
+<li class="menu-6196  menu-path-node-7610   even   last "><a href="/exhibition/holidays-2017" title="">Visiting for the Holidays</a></li>
+</ul></li>
+<li class="menu-1551 menuparent  menu-path-exhibitions   even  "><a href="/exhibitions">Exhibitions</a><ul><li class="menu-2889 menu-path-exhibitions-current  first   odd  "><a href="/exhibitions/current" title="Current Exhibitions">Current</a></li>
+<li class="menu-1740 menu-path-exhibitions-upcoming   even  "><a href="/exhibitions/upcoming" title="Upcoming Exhibitions">Upcoming</a></li>
+<li class="menu-7751 menu-path-exhibitions-past   odd   last "><a href="/exhibitions/past" title="Past Exhibitions">Past</a></li>
+</ul></li>
+<li class="menu-1728 menuparent  menu-path-node-293   odd  "><a href="/research">Research</a><ul><li class="menu-4263 menu-path-node-1719  first   odd  "><a href="/research/hours-and-location">Hours and Location</a></li>
+<li class="menu-4406  menu-path-node-1966   even  "><a href="/research/visiting-libraries">Visiting the Libraries</a></li>
+<li class="menu-2615 menu-path-https--artic-primohostedexlibrisgroupcom-primo-explore-searchvid01ARTIClangen_USsortbyrank   odd  "><a href="https://artic-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01ARTIC&amp;lang=en_US&amp;sortby=rank" title="">Library Catalog</a></li>
+<li class="menu-8348 menu-path-node-7383   even  "><a href="/research/library-catalog-help" title="Tips for searching the library catalog">Library Catalog Help</a></li>
+<li class="menu-3542  menu-path-databases   odd  "><a href="/databases" title="">Databases </a></li>
+<li class="menu-3673 menu-path-kx2bf3kp7csearchserialssolutionscom-   even  "><a href="http://kx2bf3kp7c.search.serialssolutions.com/" title="">E-Journals &amp; Newspapers</a></li>
+<li class="menu-2616  menu-path-node-495   odd  "><a href="/research/research-guides">Research Guides</a></li>
+<li class="menu-4721  menu-path-node-2474   even  "><a href="/research/archival-collections">Archival Collections</a></li>
+<li class="menu-2734  menu-path-node-549   odd  "><a href="/research/art-institute-records">Art Institute Records</a></li>
+<li class="menu-3910 menu-path-node-1389   even  "><a href="/research/library-exhibitions">Library Exhibitions</a></li>
+<li class="menu-7269 menu-path-node-1868   odd  "><a href="/research/digital-publications/online-scholarly-catalogues" title="">Scholarly Catalogues</a></li>
+<li class="menu-3572  menu-path-node-1054   even  "><a href="/research/digital-publications">Digital Publications</a></li>
+<li class="menu-2741 menu-path-node-556   odd  "><a href="/research/support-libraries">Support the Libraries</a></li>
+<li class="menu-4254 menu-path-node-1710   even   last "><a href="/research/contact-libraries">Contact the Libraries</a></li>
+</ul></li>
+<li class="menu-1725 menu-path-artinstituteshoporg   even  "><a href="http://www.artinstituteshop.org" title="">Shop Online</a></li>
+<li class="menu-2124 menuparent  menu-path-articedu-aic-collections-   odd  "><a href="http://www.artic.edu/aic/collections/" title="">Collections</a><ul><li class="menu-4357 menu-path-articedu-aic-collections-  first   odd  "><a href="http://www.artic.edu/aic/collections/" title="">Works of Art</a></li>
+<li class="menu-3475  menu-path-node-934   even  "><a href="/collections/books">Books</a></li>
+<li class="menu-4226  menu-path-node-1664   odd  "><a href="/collections/conservation" title="Conservation page">Conservation</a></li>
+<li class="menu-8357  menu-path-node-7710   even   last "><a href="/research-initiatives" title="Research Initiatives">Research Initiatives</a></li>
+</ul></li>
+<li class="menu-1726 menuparent  menu-path-node-291   even  "><a href="/learn">Learn</a><ul><li class="menu-8509 menu-path-node-7912  first   odd  "><a href="/blockparty">Art Institute Block Party</a></li>
+<li class="menu-3917  menu-path-node-1474   even  "><a href="/learn/student-tours">For Student Tours</a></li>
+<li class="menu-5178  menu-path-node-3099   odd  "><a href="/learn/teachers-pre-k-12">For Teachers (Pre-K–12)</a></li>
+<li class="menu-3930  menu-path-node-1489   even  "><a href="/teens">For Teens</a></li>
+<li class="menu-4358 menu-path-node-1913   odd  "><a href="/learn/families">For Families</a></li>
+<li class="menu-4288  menu-path-node-1732   even  "><a href="/learn/adults">For Adults</a></li>
+<li class="menu-8151 menu-path-node-6506   odd  "><a href="/Journey-Maker">JourneyMaker</a></li>
+<li class="menu-3981  menu-path-articedu-aic-multimedia-   even   last "><a href="http://www.artic.edu/aic/multimedia/" title="">Multimedia Finder</a></li>
+</ul></li>
+<li class="menu-1727 menuparent  menu-path-https--salesarticedu-memberships   odd   last "><a href="https://sales.artic.edu/memberships" title="">Join and Give</a><ul><li class="menu-3982  menu-path-node-1554  first   odd  "><a href="/join-and-give/members">Membership</a></li>
+<li class="menu-4193  menu-path-node-1604   even  "><a href="/join-and-give/sustaining-fellows">Sustaining Fellows</a></li>
+<li class="menu-4183  menu-path-node-1588   odd  "><a href="/join-and-give/support-museum">Ways to Give</a></li>
+<li class="menu-4652  menu-path-node-2245   even  "><a href="/join-and-give/corporate-partnership">Corporate Partnership</a></li>
+<li class="menu-4200  menu-path-node-1616   odd  "><a href="/join-and-give/affiliate-groups">Affiliate Groups</a></li>
+<li class="menu-4215  menu-path-node-1653   even  "><a href="/join-and-give/travel-programs">Travel Programs</a></li>
+<li class="menu-3567 menu-path-node-1048   odd   last "><a href="/volunteer-opportunities">Ways to Volunteer</a></li>
+</ul></li>
+</ul>
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+  </div>
+
+  <div id="main" class="clearfix">
+    <div id="content">
+      <div id="content-inner" class="inner column center">
+        <div id="content-inner-top">
+          <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/visit">Visit</a></div>
+          
+        </div><!--//#content-inner-top-->
+
+        <div id="content-inner-bottom">
+          
+          
+          
+                      <div class="tabs"></div>
+          
+          
+                        <div class="region region-content">
+    
+<div id="block-system-main" class="block block-system block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div class="view view-event view-id-event view-display-id-page view-dom-id-1246f632c8fec06551e3b26fdffce0ef">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div class="col-wrapper clearfix">
+	<div class="col first">
+	<div class="views-field views-field-field-media-collection">		<div class="field-content"><div id="file-14704" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/14704">IM021189_008.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://www.artic.edu/sites/default/files/styles/desktop_medium_238_180/public/IM021189_008.jpg?itok=Kzzb3NCu" width="238" height="180" alt="" title="" />  </div>
+
+  
+</div>
+</div>	</div>	</div>
+
+	<div class="col last">
+		<div class="col-inner">
+				
+				  		
+		  <strong class="views-field views-field-title">		    		    <span class="field-content"><a href="/event/beginners-sketching-workshop-2">Beginners Sketching Workshop</a></span>		  </strong>				  		
+		  <div class="views-field views-field-field-event-list-view-thumb">		    		    <div class="field-content"><a href="/event/beginners-sketching-workshop-2"><img typeof="foaf:Image" src="http://www.artic.edu/sites/default/files/IM021189_008_0.jpg" width="147" height="101" /></a></div>		  </div>				  		
+		  <strong class="views-field views-field-field-event-date-repeat">		    		    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-25T00:00:00-05:00">Saturday, August 25, 2018</span></div>		  </strong>				  		
+		  <div class="views-field views-field-body">		    		    <div class="field-content"><p>One-day sketching workshop </p>
+</div>		  </div>				</div>
+	</div>
+</div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div class="col-wrapper clearfix">
+	<div class="col first">
+	<div class="views-field views-field-field-media-collection">		<div class="field-content"><div id="file-17405" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/scaimage480jpg">SCA_Image_480.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://www.artic.edu/sites/default/files/styles/desktop_medium_238_180/public/SCA_Image_480.jpg?itok=mLwReXEV" width="238" height="180" alt="" title="" />  </div>
+
+  
+</div>
+</div>	</div>	</div>
+
+	<div class="col last">
+		<div class="col-inner">
+				
+				  		
+		  <strong class="views-field views-field-title">		    		    <span class="field-content"><a href="/event/lecture-dara-birnbaum">Lecture: Dara Birnbaum</a></span>		  </strong>				  		
+		  <div class="views-field views-field-field-event-list-view-thumb">		    		    <div class="field-content"><a href="/event/lecture-dara-birnbaum"><img typeof="foaf:Image" src="http://www.artic.edu/sites/default/files/SCA_Image_thumb.jpg" width="147" height="110" /></a></div>		  </div>				  		
+		  <strong class="views-field views-field-field-event-date-repeat">		    		    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-11T00:00:00-05:00">Tuesday, September 11, 2018</span></div>		  </strong>				  		
+		  <div class="views-field views-field-body">		    		    <div class="field-content"><p>Dara Birnbaum (born 1946) emerged as a pioneer of video art in the mid-1970s, when many women artists challenged the gender biases of mass media an</p></div>		  </div>				</div>
+	</div>
+</div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <div class="col-wrapper clearfix">
+	<div class="col first">
+	<div class="views-field views-field-field-media-collection">		<div class="field-content"><div id="file-17377" class="file file-image file-image-jpeg">
+
+        <h2 class="element-invisible"><a href="/file/calcreative06262018jpg">cal_Creative_06262018.jpg</a></h2>
+    
+  
+  <div class="content">
+    <img typeof="foaf:Image" src="http://www.artic.edu/sites/default/files/styles/desktop_medium_238_180/public/cal_Creative_06262018.jpg?itok=svfF6LYC" width="238" height="180" alt="" title="" />  </div>
+
+  
+</div>
+</div>	</div>	</div>
+
+	<div class="col last">
+		<div class="col-inner">
+				
+				  		
+		  <strong class="views-field views-field-title">		    		    <span class="field-content"><a href="/event/creative-writing-workshop-word-and-image">Creative Writing Workshop: Word and Image</a></span>		  </strong>				  		
+		  <div class="views-field views-field-field-event-list-view-thumb">		    		    <div class="field-content"><a href="/event/creative-writing-workshop-word-and-image"><img typeof="foaf:Image" src="http://www.artic.edu/sites/default/files/thumb_Creative_06262018_0.jpg" width="147" height="110" /></a></div>		  </div>				  		
+		  <strong class="views-field views-field-field-event-date-repeat">		    		    <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-09-27T00:00:00-05:00">Thursday, September 27, 2018</span></div>		  </strong>				  		
+		  <div class="views-field views-field-body">		    		    <div class="field-content"><p>Two-day creative writing workshop </p>
+</div>		  </div>				</div>
+	</div>
+</div>
+  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-previous first">&nbsp;</li>
+<li class="pager-current">1 of 1284</li>
+<li class="pager-next last"><a title="Go to next page" href="/event/sites/all/themes/aic_base/img/ajax-loader.gif?page=1">next ›</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->
+<div id="block-block-61" class="block block-block block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <style>
+.node-library-page table strong {font-size: 10px;}
+.node-library-page div {margin-left: 0px; margin-right: 0px;}
+.node-library-page table {width:100%; padding-left: 0px; padding-right: 0px; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
+</style>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+          
+        </div><!--//#content-inner-bottom-->
+
+        
+      </div><!--//#content-inner-->
+    </div> <!--//#content-->
+
+          <div id="sidebar-first" class="column sidebar first">
+        <div id="sidebar-first-inner" class="inner">
+            <div class="region region-sidebar-first">
+    
+<div id="block-block-58" class="block block-block block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <style>
+/* event btn css here */
+.field-name-field-button-links .field-items { text-align:center; }
+.field-name-field-button-links .field-item { display:inline; }
+.field-name-field-button-links .btn-event-link {
+  margin: 10px; 
+}
+</style>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->
+<div id="block-block-64" class="block block-block block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <style> a#icalDownload { display:none; } </style>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+        </div>
+      </div>
+    
+          <div id="sidebar-second" class="column sidebar second">
+        <div id="sidebar-second-inner" class="inner">
+            <div class="region region-sidebar-second">
+    
+<div id="block-quicktabs-media_feed" class="block block-quicktabs block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div  id="quicktabs-media_feed" class="quicktabs-wrapper quicktabs-style-nostyle"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="active first"><a href="/event/sites/all/themes/aic_base/img/ajax-loader.gif?qt-media_feed=0#qt-media_feed" id="quicktabs-tab-media_feed-0" class="active">Facebook</a></li>
+<li><a href="/event/sites/all/themes/aic_base/img/ajax-loader.gif?qt-media_feed=1#qt-media_feed" id="quicktabs-tab-media_feed-1" class="active">Twitter</a></li>
+<li><a href="/event/sites/all/themes/aic_base/img/ajax-loader.gif?qt-media_feed=2#qt-media_feed" id="quicktabs-tab-media_feed-2" class="active">Blog</a></li>
+<li class="last"><a href="/event/sites/all/themes/aic_base/img/ajax-loader.gif?qt-media_feed=3#qt-media_feed" id="quicktabs-tab-media_feed-3" class="active">Multimedia</a></li>
+</ul></div><div id="quicktabs-container-media_feed" class="quicktabs_main quicktabs-style-nostyle"><div  id="quicktabs-tabpage-media_feed-0" class="quicktabs-tabpage ">
+<div id="block-aic_social_media-facebook" class="block block-aic-social-media block-even clearfix">
+  <div class="block-inner">
+
+                <h2 class="block-title">Facebook</h2>
+          		
+		<div class="content" >
+		  <div class="item-list"></div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block --></div><div  id="quicktabs-tabpage-media_feed-1" class="quicktabs-tabpage quicktabs-hide">
+<div id="block-aic_social_media-twitter" class="block block-aic-social-media block-odd clearfix">
+  <div class="block-inner">
+
+                <h2 class="block-title">Twitter</h2>
+          		
+		<div class="content" >
+		  <a class="twitter-timeline" width="237" height="500" data-link-color="#990000" data-chrome="noheader nofooter transparent" href="https://twitter.com/artinstitutechi"  data-widget-id="321679760193359872">Tweets by @artinstitutechi</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block --></div><div  id="quicktabs-tabpage-media_feed-2" class="quicktabs-tabpage quicktabs-hide">
+<div id="block-views-blog-block_social" class="block block-views block-even clearfix">
+  <div class="block-inner">
+
+                <h2 class="block-title">ARTicle</h2>
+          		
+		<div class="content" >
+		  <div class="view view-blog view-id-blog view-display-id-block_social view-dom-id-64e71bd8a23b2b5b205d10ac31895699">
+        
+  
+  
+      <div class="view-content">
+      <div class="blog-social-sidebar">
+
+  <div class="item-list">
+    <ul>
+
+          <li>
+        <a href="/blog/2018/06/26/marcel-duchamp-s-bottle-rack">Marcel Duchamp’s &quot;Bottle Rack&quot;</a>      </li>
+          <li>
+        <a href="/blog/2018/06/26/one-sargent-s-good-things">“One of Sargent’s Good Things”</a>      </li>
+          <li>
+        <a href="/blog/2018/06/21/man-and-archetype-charles-whites-gideon">Man and Archetype: Charles White&#039;s &quot;Gideon&quot;</a>      </li>
+          <li>
+        <a href="/blog/2018/06/11/encounter-unusual-photographic-paper">Encounter with Unusual Photo Paper</a>      </li>
+          <li>
+        <a href="/blog/2018/06/06/personal-libraries-made-public">Charles White: A Life Shaped by Books</a>      </li>
+          <li>
+        <a href="/blog/2018/05/29/grads-galleries">Grads in the Galleries</a>      </li>
+          <li>
+        <a href="/blog/2018/05/21/chicago-seen-and-heard">Chicago Seen—and Heard</a>      </li>
+          <li>
+        <a href="/blog/2018/05/15/royal-visit-1959">The Royal Visit of 1959</a>      </li>
+          <li>
+        <a href="/blog/2018/05/11/fleshing-out-ivan-albright">Fleshing Out Ivan Albright</a>      </li>
+          <li>
+        <a href="/blog/2018/05/02/new-galleries-courbets-young-women-wheat-field">New in the Galleries: Courbet&#039;s &quot;Young Women in a Wheat Field&quot;</a>      </li>
+    
+    </ul>
+  </div>
+
+  <div class="more-link">
+    <a href="/blog?page=1">More</a>
+  </div>
+
+</div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block --></div><div  id="quicktabs-tabpage-media_feed-3" class="quicktabs-tabpage quicktabs-hide">
+<div id="block-block-37" class="block block-block block-odd clearfix">
+  <div class="block-inner">
+
+                <h2 class="block-title">YouTube</h2>
+          		
+		<div class="content" >
+		  <div class='item-list'><ul><li><a href='https://www.youtube.com/watch?v=GKqipI8luR8' title='A Portrait of Antinous, In Two Parts'>A Portrait of Antinous, In Two Parts</a><span> - Duration: 7 minutes, 36 seconds.</span></li><li><a href='https://www.youtube.com/watch?v=XRa6bGTBuzc' title='4/1/2016 Session 1 of 3: Color Change in 19th Century Art'>4/1/2016 Session 1 of 3: Color Change in 19th Century Art</a><span> - Duration: 2 hours, 30 minutes.</span></li><li><a href='https://www.youtube.com/watch?v=b1AyoFX7OGM' title='Van Gogh's Descendants: Machteld van Laer with Gloria Groom'>Van Gogh's Descendants: Machteld van Laer with Gloria Groom</a><span> - Duration: 116 seconds.</span></li><li><a href='https://www.youtube.com/watch?v=LqZ93bifrsc' title='Lecture: Cy Twombly's Things'>Lecture: Cy Twombly's Things</a><span> - Duration: 36 minutes.</span></li><li><a href='https://www.youtube.com/watch?v=WveM_SYldu0' title='Artist Talk: Edmund DeWaal'>Artist Talk: Edmund DeWaal</a><span> - Duration: 1 hour.</span></li><li><a href='https://www.youtube.com/watch?v=_LVmdOrC91c' title='Artist Conversation: Martin Puryear and Theaster Gates'>Artist Conversation: Martin Puryear and Theaster Gates</a><span> - Duration: 56 minutes.</span></li><li><a href='https://www.youtube.com/watch?v=73qAhFkhQI8' title='Histories Remixed: Jim Enote'>Histories Remixed: Jim Enote</a><span> - Duration: 1 hour, 22 minutes.</span></li><li><a href='https://www.youtube.com/watch?v=2HAZwyCVzBU' title='Artist Talk: Richard Rezac'>Artist Talk: Richard Rezac</a><span> - Duration: 52 minutes.</span></li><li><a href='https://www.youtube.com/watch?v=9SsUzaIDsHo' title='Under Cover: The Science of Van Gogh's Bedrooms'>Under Cover: The Science of Van Gogh's Bedrooms</a><span> - Duration: 8 minutes, 53 seconds.</span></li><li><a href='https://www.youtube.com/watch?v=NKhMhkISi3g' title='Van Gogh's Bedrooms at the Art Institute of Chicago'>Van Gogh's Bedrooms at the Art Institute of Chicago</a><span> - Duration: 111 seconds.</span></li></ul></div><div class='more-link'><a title='More recent videos. Links to Art Insitute YouTube channel.' href='https://www.youtube.com/user/ArtInstituteChicago/videos' target='_blank'>More</a></div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block --></div></div></div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->
+<div id="block-block-62" class="block block-block block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <script>
+jQuery('.active-trail a').on('click', function(e){
+    var c = this.getAttribute('href');
+    var b = c.slice(c.indexOf('?'), c.indexOf('#')).split('=');
+    if(b[0] === '?qt-reference_nodes') {
+      jQuery('#quicktabs-tab-reference_nodes-' + b[1] ).trigger('click');
+      e.preventDefault();
+      jQuery('html, body').animate({
+        scrollTop: jQuery('#quicktabs-tab-reference_nodes-' + b[1] ).offset().top - 50
+      }, 500);
+    }
+});
+</script>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+        </div>
+      </div>
+    
+  </div> <!-- /main -->
+
+
+      <div id="toolbox" class="toolbox">
+      <div id="toolbox-inner" class="inner">
+          <div class="region region-toolbox">
+    
+<div id="block-fuseiq_toolkit-toolkit_block" class="block block-fuseiq-toolkit block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div id="fuseiq_toolkit_block">
+	<ul>
+    <li class="video_feature">
+      <a class="invisible" href="https://www.youtube.com/user/ArtInstituteChicago/videos">Videos</a>
+        <ul class="menu_items">
+          <li class="menu_title">
+            <span class="title"><a href="https://www.youtube.com/user/ArtInstituteChicago/videos">Videos</a></span><br />Featured Videos
+          </li>
+        </ul>
+    </li>
+
+		<li class="search_form"><span class="invisible">Search</span>
+			<ul>
+				<li>
+          <form class="search-form google-cse" action="/search/google" method="post" id="search-form" accept-charset="UTF-8">
+            <div>
+              <div class="container-inline form-wrapper" id="edit-basic">
+                <div class="form-item form-type-textfield form-item-keys">
+                  <label class="show-for-sr" for="edit-keys">Enter your keywords </label>
+                  <input type="text" id="edit-keys" name="keys" value="" maxlength="255" class="form-text" />
+                </div>
+                <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" />
+              </div>
+              <input type="hidden" name="form_build_id" value="form-N8pnyfGFKa9_MJDe0vzKflxxxAH_NrISObRuMUw2C6U" />
+              <input type="hidden" name="form_token" value="_oAOn2YCIn2dTnN5FuAM0425JGBVJArZNGLN2G9VXTM" />
+              <input type="hidden" name="form_id" value="search_form" />
+            </div>
+          </form>
+				</li>
+			</ul>
+		</li>
+		
+		<li class="calendar_links"><a class="invisible" href="/calendar">Calendar</a>
+			<ul class="menu_items">
+				<li class="menu_title">
+					<span class="title"><a href="/calendar">Calendar</a></span><br />Featured Events
+				</li>
+									<li>
+						<div class="title">Family Programs</div>
+						<div class="link"><a href="http://www.artic.edu/calendar?keyword=family programs">Weekend programs</a></div>
+					</li>
+									<li>
+						<div class="title">Gallery Talks</div>
+						<div class="link"><a href="http://www.artic.edu/calendar?keyword=Gallery%20Talk">Daily at 12:00</a></div>
+					</li>
+							</ul>
+		</li>
+
+		<li class="dining_menu">
+		<a href="/visit/dining" class="invisible">Dining</a>			<ul>
+				<li class="menu_title">
+					<span class="title"><a href="/visit/dining">Dining</a></span>
+				</li>
+									<li class="data"><a href="/visit/dining">Terzo Piano</a></li>
+									<li class="data"><a href="http://artic.edu/visit/dining?qt-reference_nodes=1">Museum Café</a></li>
+									<li class="data"><a href="http://artic.edu/visit/dining?qt-reference_nodes=2">Caffè Moderno</a></li>
+									<li class="data"><a href="http://artic.edu/visit/dining?qt-reference_nodes=3#qt-reference_nodes">Summer Alfresco Dining</a></li>
+									<li class="data"><a href="/about/event-planning">Event Planning</a></li>
+							</ul>
+		</li>
+		
+		<li class="tickets">
+		<a href="https://sales.artic.edu/" target="_blank" class="invisible">Ticket</a>
+			<ul>
+				<li class="menu_title">
+                <span class="title">
+                <a href="https://sales.artic.edu/" target="_blank">Tickets</a></span>
+                <br /><a href="https://sales.artic.edu/" target="_blank">Buy tickets online</a>
+				</li>
+								
+			</ul>
+		</li>	
+
+		<li class="members">
+		<a href="/join-and-give/members" class="invisible">Members</a>			<ul>
+				<li class="menu_title">
+				<span class="title"><a href="/join-and-give/members">Members</a></span>
+				<!--  
+				<span class="title"><a href="/calendar?date1=06-27-2012&date2=06-27-2013&aid=9">Members</a></span>
+				-->
+				</li>
+									<li class="item">
+						<div class="title"><a href="/calendar?keyword=member">Member Programs</a></div>
+						<div class="body">Explore upcoming programs and events
+</div>
+					</li>
+									<li class="item">
+						<div class="title"><a href="/join-and-give/members/member-programs/member-lounge-newly-renovated">Member Lounge</a></div>
+						<div class="body">Complimentary coffee and tea plus a full cash bar</div>
+					</li>
+								
+			</ul>
+		</li>	
+	</ul>
+</div>
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+      </div>
+    </div>
+  
+      <div id="footer">
+              <div class="region region-footer">
+    
+<div id="block-menu_block-5" class="block block-menu-block block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div class="menu-block-wrapper menu-block-5 menu-name-menu-desktop-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf has-children menu-mlid-3101"><a href="/about">About</a></li>
+<li class="leaf menu-mlid-3251"><a href="/contact-us">Contact</a></li>
+<li class="leaf menu-mlid-4669"><a href="/image-licensing-0">Image Licensing</a></li>
+<li class="leaf has-children menu-mlid-3195"><a href="/terms/terms-and-conditions">Terms</a></li>
+<li class="leaf menu-mlid-3562"><a href="http://www.saic.edu/" title="">SAIC</a></li>
+<li class="leaf has-children menu-mlid-3192"><a href="/Careers">Careers</a></li>
+<li class="leaf menu-mlid-4644"><a href="/e-news">E-news</a></li>
+<li class="leaf menu-mlid-3480"><a href="/credits">Credits</a></li>
+<li class="last leaf menu-mlid-5152"><a href="http://blog.artic.edu/" title="">Blog</a></li>
+</ul></div>
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->
+<div id="block-aic_social_media-external_links" class="block block-aic-social-media block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div class="item-list"><ul id="aic_social_sites_menu" class="menu"><li class="first"><span class="print_html"><a href="http://www.artic.edu/print/event/express-talk-exhibition-overview-eldzier-cortor-coming-home?calendar_block_month=8&amp;calendar_block_year=2017&amp;qt-media_feed=1&amp;qt-event_tabs_filters=0" title="Display a printer-friendly version of this page." class="print-page" onclick="window.open(this.href); return false" rel="nofollow"><img class="print-icon" typeof="foaf:Image" src="/sites/all/themes/aic_base/img/print_static.png" alt="Printer-friendly version" title="Printer-friendly version" /></a></span></li>
+<li><a href="/" class="addthis_button share">Share</a></li>
+<li><a href="http://www.facebook.com/artic" title="Connect on Facebook." class="external_link facebook" target="_blank"><span>Connect on Facebook</span></a></li>
+<li><a href="https://twitter.com/artinstitutechi" title="Follow us on Twitter." class="external_link twitter" target="_blank"><span>Follow us on Twitter</span></a></li>
+<li><a href="http://instagram.com/artinstitutechi" title="Art Institute of Chicago&#039;s photostream." class="external_link instagram" target="_blank"><span>Instagram</span></a></li>
+<li><a href="http://www.youtube.com/user/ArtInstituteChicago" title="YouTube." class="external_link youtube" target="_blank"><span>YouTube</span></a></li>
+<li class="last"><a href="https://www.linkedin.com/company/the-art-institute-of-chicago" title="LinkedIn" class="external_link linkedin" target="_blank"><span>LinkedIn</span></a></li>
+</ul></div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+    </div><!--//#footer-->
+  
+</div><!-- /page -->
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var addthis_config = {"services_compact":"email,facebook,tumblr,twitter,more","data_track_clickback":false,"ui_508_compliant":false,"ui_click":false,"ui_cobrand":"","ui_delay":0,"ui_header_background":"","ui_header_color":"","ui_open_windows":true,"ui_use_css":true,"ui_use_addressbook":false,"ui_language":"en"}
+var addthis_share = {"templates":{"twitter":"{{title}} {{url}} via @AddThis"}}
+//--><!]]>
+</script>
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MQBCFS"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MQBCFS');</script>
+  <!-- End Google Tag Manager -->
+
+</body>
+</html>

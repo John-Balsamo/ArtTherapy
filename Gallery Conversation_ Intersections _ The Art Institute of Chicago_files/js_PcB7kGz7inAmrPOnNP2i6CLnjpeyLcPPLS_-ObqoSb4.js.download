@@ -1,0 +1,59 @@
+(function($){
+  $(document).ready(function(){
+
+    $('#header li a').wrapInner('<span />');
+    $('#content-inner .quicktabs-tabs li a').wrapInner('<span />');
+    $('#header .nice-menu .row:first-child').addClass('first');
+
+    $('#nice-menu-1 > li:nth-child(5)').addClass("clear-left");
+    $("#nice-menu-1 > li").slice(4).addClass("second-row");
+
+    var boxheight = $('.field-name-field-media-collection').height();
+    var z = $('#node-gallery-slideshow-wrapper div').length;
+    $('#media-collection-nav').css({'position': 'relative', 'top':-boxheight/2, 'z-index': z+1 });
+
+    var icon_path = Drupal.settings.basePath + Drupal.settings.aic_base['theme'] +"/img/";
+
+    $('#quicktabs-media_feed ul.quicktabs-tabs li').each(function(index) {
+      var media = $(this).text().replace(/(^[\s\xA0]+|[\s\xA0]+$)/g, '').toLowerCase();
+      $(this).addClass('tab-'+media);
+    });
+
+
+    /* equal height of blocks in the same row,
+     * to prevent the floating of blocks on next row
+     */
+    var items = $('#related-content-group .block-inner');
+    var total = items.length;
+    for ( i = 0; i <= total; i+=2 ) {
+      var row = items.slice(i, Math.min(i + 2, total - 1));
+      var maxHeight = 0;
+      row.each(function() {
+        maxHeight = $(this).height() > maxHeight ? $(this).height() : maxHeight;
+      }).height(maxHeight);
+    }
+
+
+    $('#fuseiq_toolkit_block ul').superfish({
+      hoverClass: 'over',
+      autoArrows: false,
+      dropShadows: false,
+      delay: 1000,
+      speed: Drupal.settings.nice_menus_options.speed
+      // Add in Brandon Aaron’s bgIframe plugin for IE select issues.
+      // http://plugins.jquery.com/node/46/release
+    }).find('ul').bgIframe({opacity:false});
+
+    (function() { // hides buy ticket btn on exhibition pages if exhibit ended
+      if('.node-type-exhibition') {
+        var end = new Date($('.date-display').attr('data-date-end'));
+        if(end < new Date) {
+          $('#cta-btn-reserve').hide();
+        }
+      }
+    })();
+
+});
+
+})(jQuery);
+;

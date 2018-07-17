@@ -1,0 +1,97 @@
+(function ($) {
+
+  $(function () {
+    var googleCSEWatermark = function (id) {
+      var f = $(id)[0];
+      if (f && (f.query || f['edit-search-block-form--2'] || f['edit-keys'])) {
+        var q = f.query ? f.query : (f['edit-search-block-form--2'] ? f['edit-search-block-form--2'] : f['edit-keys']);
+        var n = navigator;
+        var l = location;
+        if (n.platform == 'Win32') {
+          q.style.cssText = 'border: 1px solid #7e9db9; padding: 2px;';
+        }
+        var b = function () {
+          if (q.value == '') {
+            q.style.background = '#FFFFFF url(https://www.google.com/cse/intl/' + Drupal.settings.googleCSE.language + '/images/google_custom_search_watermark.gif) left no-repeat';
+          }
+        };
+        var f = function () {
+          q.style.background = '#ffffff';
+        };
+        q.onfocus = f;
+        q.onblur = b;
+//      if (!/[&?]query=[^&]/.test(l.search)) {
+        b();
+//      }
+      }
+    };
+    googleCSEWatermark('#search-block-form.google-cse');
+    googleCSEWatermark('#search-form.google-cse');
+    googleCSEWatermark('#google-cse-results-searchbox-form');
+  });
+
+})(jQuery);
+;
+(function ($) {
+
+/**
+ * Media Colorbox behavior.
+ */
+Drupal.behaviors.initMediaColorbox = {
+  attach: function (context, settings) {
+    if (!$.isFunction($.colorbox)) {
+      return;
+    }
+    $('a.media-colorbox', context).once('init-media-colorbox', function() {
+      // Merge Colorbox settings with Media Colorbox settings from data attributes.
+      var mediaColorboxSettings = {initialWidth: String($(this).data('mediaColorboxInitialWidth')), 
+        initialHeight: String($(this).data('mediaColorboxInitialHeight'))};
+      var options = jQuery.extend({}, settings.colorbox);
+      jQuery.extend(options, mediaColorboxSettings);
+
+      jQuery.extend(options, {
+        onComplete: function() {
+
+          var $that = $(this);
+          var image = new Image();
+          var $img = $('#cboxWrapper .content img');
+
+          image.src = $img.attr('src');
+          $img.attr('width', image.naturalWidth);
+          $img.attr('height', image.naturalHeight);
+
+          $that.colorbox.resize();
+          
+          setTimeout( function() {
+              $that.colorbox.resize();
+          }, 2000);
+
+        }
+      });
+
+      $(this).colorbox(options);
+    });
+  }
+};
+
+})(jQuery);
+;
+(function ($) {
+
+  Drupal.behaviors.addthis = {
+    attach: function(context, settings) {
+      $.getScript(
+        Drupal.settings.addthis.widget_url,
+        function(data, textStatus) {
+          addthis.init();
+        }
+      );
+      if (context != window.document && window.addthis != null) {
+        window.addthis.ost = 0;
+        window.addthis.ready();
+      }
+    }
+  };
+
+}(jQuery));
+;
